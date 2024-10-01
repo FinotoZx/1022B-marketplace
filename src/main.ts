@@ -35,7 +35,6 @@ app.get("/produtos", async (req, res) => {
         res.status(500).send("Erro do servidor")
     }
 
-
 })
 
 //INICIAR O SERVIDOR
